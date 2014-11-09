@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>O jedru Bitcoina</translation>
+        <source>About Renamedcoin Core</source>
+        <translation>O jedru Renamedcoina</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Jedro Bitcoina&lt;/b&gt; različica</translation>
+        <source>&lt;b&gt;Renamedcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Jedro Renamedcoina&lt;/b&gt; različica</translation>
     </message>
     </context>
 <context>
@@ -77,12 +77,12 @@
         <translation>Prejemati naslovi</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To so Bitcoin naslovi za pošiljanje plačilnih čekov. Vedno preveri količino in naslov za prejemanje pred pošiljanjem kovancev.</translation>
+        <source>These are your Renamedcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To so Renamedcoin naslovi za pošiljanje plačilnih čekov. Vedno preveri količino in naslov za prejemanje pred pošiljanjem kovancev.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To so vaši Bitcoin naslovi za prejemanje plačil. Priporočljivo je uporabljati nov prejemni naslov za vsako izmed transakcij.</translation>
+        <source>These are your Renamedcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To so vaši Renamedcoin naslovi za prejemanje plačil. Priporočljivo je uporabljati nov prejemni naslov za vsako izmed transakcij.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -191,8 +191,8 @@
         <translation>Denarnica šifrirana</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin se bo zaprl, da bi dokončal proces šifriranja. Zapomnite si, da šifriranje vaše denarnice ne more popolnoma zaščititi pred krajami zlonamernih programov, ki bi lahko bili nameščeni na vašem računalniku.</translation>
+        <source>Renamedcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your renamedcoins from being stolen by malware infecting your computer.</source>
+        <translation>Renamedcoin se bo zaprl, da bi dokončal proces šifriranja. Zapomnite si, da šifriranje vaše denarnice ne more popolnoma zaščititi pred krajami zlonamernih programov, ki bi lahko bili nameščeni na vašem računalniku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -220,7 +220,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Podpiši &amp;sporočilo ...</translation>
@@ -254,8 +254,8 @@
         <translation>Izhod iz aplikacije</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Pokaži informacije o Bitcoinu</translation>
+        <source>Show information about Renamedcoin</source>
+        <translation>Pokaži informacije o Renamedcoinu</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -302,12 +302,12 @@
         <translation>Poustvarjam kazalo blokov na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Pošlji kovance na Bitcoin naslov</translation>
+        <source>Send coins to a Renamedcoin address</source>
+        <translation>Pošlji kovance na Renamedcoin naslov</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Spremeni konfiguracijo nastavitev za Bitcoin</translation>
+        <source>Modify configuration options for Renamedcoin</source>
+        <translation>Spremeni konfiguracijo nastavitev za Renamedcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -326,8 +326,8 @@
         <translation>Odpri razhroščevalno in diagnostično konzolo</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -354,8 +354,8 @@
         <translation>Šifiraj zasebne ključe v moji denarnici</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Za dokaz, da ste lastniki sporočil, se podpišite z Bitcoin naslovom</translation>
+        <source>Sign messages with your Renamedcoin addresses to prove you own them</source>
+        <translation>Za dokaz, da ste lastniki sporočil, se podpišite z Renamedcoin naslovom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -378,12 +378,12 @@
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Jedro Bitcoina</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Jedro Renamedcoina</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;O jedru Bitcoina</translation>
+        <source>&amp;About Renamedcoin Core</source>
+        <translation>&amp;O jedru Renamedcoina</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -394,16 +394,16 @@
         <translation>Prikaži seznam uporabljenih sprejemnih naslovov in oznak</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Odpri Bitcoin: URI ali zahteva o plačilu</translation>
+        <source>Open a renamedcoin: URI or payment request</source>
+        <translation>Odpri Renamedcoin: URI ali zahteva o plačilu</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin odjemalec</translation>
+        <source>Renamedcoin client</source>
+        <translation>Renamedcoin odjemalec</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna povezava v bitcoin omrežje</numerusform><numerusform>%n aktivni povezavi v bitcoin omrežje</numerusform><numerusform>%n aktivnih povezav v bitcoin omrežje</numerusform><numerusform>%n aktivnih povezav v bitcoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to Renamedcoin network</source>
+        <translation><numerusform>%n aktivna povezava v renamedcoin omrežje</numerusform><numerusform>%n aktivni povezavi v renamedcoin omrežje</numerusform><numerusform>%n aktivnih povezav v renamedcoin omrežje</numerusform><numerusform>%n aktivnih povezav v renamedcoin omrežje</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -663,8 +663,8 @@ Naslov: %4
         <translation>Uredi naslov za odlive</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Vnešeni naslov "%1" ni veljaven Bitcoin naslov.</translation>
+        <source>The entered address "%1" is not a valid Renamedcoin address.</source>
+        <translation>Vnešeni naslov "%1" ni veljaven Renamedcoin naslov.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -685,8 +685,8 @@ Naslov: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Jedro Bitcoina</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Jedro Renamedcoina</translation>
     </message>
     <message>
         <source>version</source>
@@ -720,12 +720,12 @@ Naslov: %4
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Dobrodošli v jedru Bitcoina</translation>
+        <source>Welcome to Renamedcoin Core.</source>
+        <translation>Dobrodošli v jedru Renamedcoina</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -766,12 +766,12 @@ Naslov: %4
         <translation>Nakazilo plačila &amp; provizija</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Po prijavi v sistem samodejno zaženite Bitcoin.</translation>
+        <source>Automatically start Renamedcoin after logging in to the system.</source>
+        <translation>Po prijavi v sistem samodejno zaženite Renamedcoin.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Zaženi Bitcoin ob prijavi v sistem</translation>
+        <source>&amp;Start Renamedcoin on system login</source>
+        <translation>&amp;Zaženi Renamedcoin ob prijavi v sistem</translation>
     </message>
     <message>
         <source>MB</source>
@@ -786,8 +786,8 @@ Naslov: %4
         <translation>&amp;Denarnica</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata Bitcoin odjemalca na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira UPnP in je omogočen.</translation>
+        <source>Automatically open the Renamedcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata Renamedcoin odjemalca na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira UPnP in je omogočen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -842,8 +842,8 @@ Naslov: %4
         <translation>Vmesnik uporabnika &amp;jezik:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Tukaj je mogoče nastaviti uporabniški vmesnik za jezike. Ta nastavitev bo prikazana šele, ko boste znova zagnali Bitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Renamedcoin.</source>
+        <translation>Tukaj je mogoče nastaviti uporabniški vmesnik za jezike. Ta nastavitev bo prikazana šele, ko boste znova zagnali Renamedcoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -869,8 +869,8 @@ Naslov: %4
         <translation>Oblika</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazanim podatkom je lahko potekel rok. Vaša denarnica bo po vzpostavitvi povezave samodejno sinhronizirana z Bitcoin omrežjem, ampak ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Renamedcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazanim podatkom je lahko potekel rok. Vaša denarnica bo po vzpostavitvi povezave samodejno sinhronizirana z Renamedcoin omrežjem, ampak ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -935,8 +935,8 @@ Naslov: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -947,8 +947,8 @@ Naslov: %4
         <translation>Napaka: Neveljavna kombinacija -regtest and -testnet</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vnesite bitcoin naslov (npr.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vnesite renamedcoin naslov (npr.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1053,8 +1053,8 @@ Naslov: %4
         <translation>Počisti konzolo</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Dobrodošli na Bitcoin RPC konzoli.</translation>
+        <source>Welcome to the Renamedcoin RPC console.</source>
+        <translation>Dobrodošli na Renamedcoin RPC konzoli.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1325,8 +1325,8 @@ Naslov: %4
         <translation>Najdena kopija naslova, možnost pošiljanja na vsakega izmed naslov le enkrat ob pošiljanju.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Opozorilo: Neveljaven Bitcoin naslov</translation>
+        <source>Warning: Invalid Renamedcoin address</source>
+        <translation>Opozorilo: Neveljaven Renamedcoin naslov</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1446,8 +1446,8 @@ Naslov: %4
         <translation>Preveri &amp;Sporočilo</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vnesite bitcoin naslov (npr.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vnesite renamedcoin naslov (npr.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1497,8 +1497,8 @@ Naslov: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Jedro Bitcoina</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Jedro Renamedcoina</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1894,7 +1894,7 @@ Naslov: %4
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>Uporaba:</translation>
@@ -1912,12 +1912,12 @@ Naslov: %4
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Določi datoteko z nastavitvami (privzeta: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: renamedcoin.conf)</source>
+        <translation>Določi datoteko z nastavitvami (privzeta: renamedcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Določi pid datoteko (privzeta: bitcoin.pid)</translation>
+        <source>Specify pid file (default: renamedcoind.pid)</source>
+        <translation>Določi pid datoteko (privzeta: renamedcoin.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2020,8 +2020,8 @@ Naslov: %4
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosti: (glejte Bitcoin Wiki za navodla, kako nastaviti SSL)</translation>
+        <source>SSL options: (see the Renamedcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL možnosti: (glejte Renamedcoin Wiki za navodla, kako nastaviti SSL)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -2128,12 +2128,12 @@ Naslov: %4
         <translation>Napaka pri nalaganju wallet.dat: denarnica pokvarjena</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo različico Bitcoina</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Renamedcoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo različico Renamedcoina</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno zaženite Bitcoin za doknčanje</translation>
+        <source>Wallet needed to be rewritten: restart Renamedcoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno zaženite Renamedcoin za doknčanje</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

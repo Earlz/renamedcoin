@@ -120,7 +120,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>กำลังทำข้อมูลให้ตรงกันกับเครือข่าย ...</translation>
@@ -146,8 +146,8 @@
         <translation>ออกจากโปรแกรม</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>แสดงข้อมูลเกี่ยวกับ Bitcoin</translation>
+        <source>Show information about Renamedcoin</source>
+        <translation>แสดงข้อมูลเกี่ยวกับ Renamedcoin</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -178,8 +178,8 @@
         <translation>[testnet]</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to Renamedcoin network</source>
+        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Renamedcoin</numerusform></translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -406,6 +406,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     </context>
 </TS>

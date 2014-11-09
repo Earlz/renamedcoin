@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Sobre o Bitcoin Core</translation>
+        <source>About Renamedcoin Core</source>
+        <translation>Sobre o Renamedcoin Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
-        <translation>versão do &lt;b&gt;Bitcoin Core&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Renamedcoin Core&lt;/b&gt; version</source>
+        <translation>versão do &lt;b&gt;Renamedcoin Core&lt;/b&gt;</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Os programadores Bitcoin Core</translation>
+        <source>The Renamedcoin Core developers</source>
+        <translation>Os programadores Renamedcoin Core</translation>
     </message>
     </context>
 <context>
@@ -99,12 +99,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Endereços de depósito</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Bitcoin para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
+        <source>These are your Renamedcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços Renamedcoin para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Bitcoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
+        <source>These are your Renamedcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços Renamedcoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -221,8 +221,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Carteira encriptada</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Bitcoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus bitcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>Renamedcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your renamedcoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Renamedcoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus renamedcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -254,7 +254,7 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Assinar &amp;mensagem...</translation>
@@ -292,8 +292,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Mostrar informação sobre o Bitcoin</translation>
+        <source>Show information about Renamedcoin</source>
+        <translation>Mostrar informação sobre o Renamedcoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -340,12 +340,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>A reindexar blocos no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar moedas para um endereço bitcoin</translation>
+        <source>Send coins to a Renamedcoin address</source>
+        <translation>Enviar moedas para um endereço renamedcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Modificar opções de configuração para bitcoin</translation>
+        <source>Modify configuration options for Renamedcoin</source>
+        <translation>Modificar opções de configuração para renamedcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -368,8 +368,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -396,12 +396,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços Bitcoin para provar que os controla</translation>
+        <source>Sign messages with your Renamedcoin addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços Renamedcoin para provar que os controla</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Bitcoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified Renamedcoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Renamedcoin especificado</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -424,16 +424,16 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>[rede de testes]</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Renamedcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e URIs bitcoin:)</translation>
+        <source>Request payments (generates QR codes and renamedcoin: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e URIs renamedcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Sobre o Bitcoin Core</translation>
+        <source>&amp;About Renamedcoin Core</source>
+        <translation>&amp;Sobre o Renamedcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -444,24 +444,24 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
         <translation>Mostrar a lista de rótulos e endereços de receção usados</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir URI bitcoin: ou pedido de pagamento</translation>
+        <source>Open a renamedcoin: URI or payment request</source>
+        <translation>Abrir URI renamedcoin: ou pedido de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opções da linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostrar a mensagem de ajuda do Bitcoin Core para obter uma lista com possíveis opções de linha de comandos</translation>
+        <source>Show the Renamedcoin Core help message to get a list with possible Renamedcoin command-line options</source>
+        <translation>Mostrar a mensagem de ajuda do Renamedcoin Core para obter uma lista com possíveis opções de linha de comandos</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation>Cliente Bitcoin</translation>
+        <source>Renamedcoin client</source>
+        <translation>Cliente Renamedcoin</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Bitcoin</numerusform><numerusform>%n ligações ativas à rede Bitcoin</numerusform></translation>
+        <source>%n active connection(s) to Renamedcoin network</source>
+        <translation><numerusform>%n ligação ativa à rede Renamedcoin</numerusform><numerusform>%n ligações ativas à rede Renamedcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -555,8 +555,8 @@ Endereço: %4</translation>
         <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O Bitcoin não pode continuar com segurança e irá fechar.</translation>
+        <source>A fatal error occurred. Renamedcoin can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O Renamedcoin não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -840,8 +840,8 @@ Endereço: %4</translation>
         <translation>O endereço introduzido "%1" já se encontra no livro de endereços.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço bitcoin válido.</translation>
+        <source>The entered address "%1" is not a valid Renamedcoin address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço renamedcoin válido.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -878,12 +878,12 @@ Endereço: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core - Command-line options</source>
-        <translation>Bitcoin Core - Opções de linha de comandos</translation>
+        <source>Renamedcoin Core - Command-line options</source>
+        <translation>Renamedcoin Core - Opções de linha de comandos</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Renamedcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -925,16 +925,16 @@ Endereço: %4</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Bem-vindo ao Bitcoin Core.</translation>
+        <source>Welcome to Renamedcoin Core.</source>
+        <translation>Bem-vindo ao Renamedcoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Sendo esta a primeira vez que o programa é iniciado, poderá escolher onde o Bitcoin Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Renamedcoin Core will store its data.</source>
+        <translation>Sendo esta a primeira vez que o programa é iniciado, poderá escolher onde o Renamedcoin Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O Bitcoin Core vai transferir e armazenar uma cópia do "block chain" (cadeia de blocos). Pelo menos %1GB de dados serão armazenados nesta pasta, e vão crescer ao longo do tempo. A sua carteira também irá ser armazenada nesta pasta.</translation>
+        <source>Renamedcoin Core will download and store a copy of the Renamedcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O Renamedcoin Core vai transferir e armazenar uma cópia do "block chain" (cadeia de blocos). Pelo menos %1GB de dados serão armazenados nesta pasta, e vão crescer ao longo do tempo. A sua carteira também irá ser armazenada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -945,8 +945,8 @@ Endereço: %4</translation>
         <translation>Utilizar uma pasta de dados personalizada:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" can not be created.</source>
@@ -1007,12 +1007,12 @@ Endereço: %4</translation>
         <translation>Pagar &amp;taxa de transação</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Começar o Bitcoin automaticamente ao iniciar sessão no sistema.</translation>
+        <source>Automatically start Renamedcoin after logging in to the system.</source>
+        <translation>Começar o Renamedcoin automaticamente ao iniciar sessão no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Começar o Bitcoin ao iniciar o sistema</translation>
+        <source>&amp;Start Renamedcoin on system login</source>
+        <translation>&amp;Começar o Renamedcoin ao iniciar o sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1027,8 +1027,8 @@ Endereço: %4</translation>
         <translation>Número de processos de &amp;verificação de scripts</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation>Ligar à rede Bitcoin através de um proxy SOCKS.</translation>
+        <source>Connect to the Renamedcoin network through a SOCKS proxy.</source>
+        <translation>Ligar à rede Renamedcoin através de um proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1075,8 +1075,8 @@ Endereço: %4</translation>
         <translation>&amp;Gastar troco não confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente bitcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <source>Automatically open the Renamedcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir a porta do cliente renamedcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1131,8 +1131,8 @@ Endereço: %4</translation>
         <translation>&amp;Linguagem da interface de utilizador:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Bitcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Renamedcoin.</source>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o Renamedcoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1143,8 +1143,8 @@ Endereço: %4</translation>
         <translation>Escolha a subdivisão unitária a ser mostrada por defeito na aplicação e ao enviar moedas.</translation>
     </message>
     <message>
-        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Se mostrar, ou não, os endereços Bitcoin na lista de transações.</translation>
+        <source>Whether to show Renamedcoin addresses in the transaction list or not.</source>
+        <translation>Se mostrar, ou não, os endereços Renamedcoin na lista de transações.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1198,8 +1198,8 @@ Endereço: %4</translation>
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Bitcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Renamedcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Renamedcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1253,8 +1253,8 @@ Endereço: %4</translation>
         <translation>Manuseamento de URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>O URI não foi lido correctamente! Isto pode ser causado por um endereço Bitcoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Renamedcoin address or malformed URI parameters.</source>
+        <translation>O URI não foi lido correctamente! Isto pode ser causado por um endereço Renamedcoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1265,8 +1265,8 @@ Endereço: %4</translation>
         <translation>Erro de pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Impossível iniciar o controlador de bitcoin: click-to-pay</translation>
+        <source>Cannot start renamedcoin: click-to-pay handler</source>
+        <translation>Impossível iniciar o controlador de renamedcoin: click-to-pay</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1320,8 +1320,8 @@ Endereço: %4</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1332,8 +1332,8 @@ Endereço: %4</translation>
         <translation>Erro: Combinação inválida de -regtest e -testnet.</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduza um endereço Bitcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduza um endereço Renamedcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1454,7 +1454,7 @@ Endereço: %4</translation>
         <translation>Ficheiro de registo de depuração</translation>
     </message>
     <message>
-        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Renamedcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
     <message>
@@ -1462,8 +1462,8 @@ Endereço: %4</translation>
         <translation>Limpar consola</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Bem-vindo à consola RPC Bitcoin.</translation>
+        <source>Welcome to the Renamedcoin RPC console.</source>
+        <translation>Bem-vindo à consola RPC Renamedcoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1525,8 +1525,8 @@ Endereço: %4</translation>
         <translation>Reutilizar um endereço de receção existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Bitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Renamedcoin network.</source>
+        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Renamedcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1838,8 +1838,8 @@ Endereço: %4</translation>
         <translation>A transação foi rejeitada! Isto poderá acontecer se algumas das moedas na sua carteira já tiverem sido gastas, se por exemplo tiver usado uma cópia do ficheiro wallet.dat e as moedas tiverem sido gastas na cópia mas não tiverem sido marcadas como gastas aqui.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Aviso: Endereço Bitcoin inválido</translation>
+        <source>Warning: Invalid Renamedcoin address</source>
+        <translation>Aviso: Endereço Renamedcoin inválido</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1925,8 +1925,8 @@ Endereço: %4</translation>
         <translation>Introduza um rótulo para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI bitcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Bitcoin.</translation>
+        <source>A message that was attached to the renamedcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Renamedcoin network.</source>
+        <translation>Uma mensagem que estava anexada ao URI renamedcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Renamedcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1944,8 +1944,8 @@ Endereço: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>O Bitcoin Core está a encerrar...</translation>
+        <source>Renamedcoin Core is shutting down...</source>
+        <translation>O Renamedcoin Core está a encerrar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1999,8 +1999,8 @@ Endereço: %4</translation>
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço Bitcoin</translation>
+        <source>Sign the message to prove you own this Renamedcoin address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço Renamedcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2027,8 +2027,8 @@ Endereço: %4</translation>
         <translation>O endereço utilizado para assinar a mensagem (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Bitcoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified Renamedcoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Renamedcoin especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2039,8 +2039,8 @@ Endereço: %4</translation>
         <translation>Repor todos os campos de verificação de mensagem</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduza um endereço Bitcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduza um endereço Renamedcoin (p.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -2098,12 +2098,12 @@ Endereço: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Renamedcoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Os programadores do Bitcoin Core</translation>
+        <source>The Renamedcoin Core developers</source>
+        <translation>Os programadores do Renamedcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2563,7 +2563,7 @@ Endereço: %4</translation>
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>Utilização:</translation>
@@ -2581,12 +2581,12 @@ Endereço: %4</translation>
         <translation>Opções:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: renamedcoin.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: renamedcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: bitcoind.pid)</translation>
+        <source>Specify pid file (default: renamedcoind.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: renamedcoind.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2644,24 +2644,24 @@ Endereço: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcoinrpc
+rpcuser=renamedcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Renamedcoin Alert" admin@foo.com
 </source>
         <translation>%s, deverá definir uma rpcpassword no ficheiro de configuração:
 %s
 É recomendado que use a seguinte palavra-passe aleatória:
-rpcuser=bitcoinrpc
+rpcuser=renamedcoinrpc
 rpcpassword=%s
 (não é necessário lembrar esta palavra-passe)
 O nome de utilizador e palavra-passe NÃO PODEM ser iguais.
 Se o ficheiro não existir, crie-o com permissões de leitura apenas para o dono.
 Também é recomendado definir um alertnotify para que seja alertado sobre problemas;
-por exemplo: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com</translation>
+por exemplo: alertnotify=echo %%s | mail -s "Alerta Renamedcoin" admin@foo.com</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
@@ -2704,8 +2704,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com</tran
         <translation>Esta é uma versão de testes pré-lançamento - use à sua responsabilidade - não usar para minar ou aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Incapaz de vincular à porta %s neste computador. O Bitcoin Core provavelmente já está a correr.</translation>
+        <source>Unable to bind to %s on this computer. Renamedcoin Core is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador. O Renamedcoin Core provavelmente já está a correr.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2716,8 +2716,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com</tran
         <translation>Atenção: -paytxfee está definida com um valor muito alto! Esta é a taxa que irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Bitcoin não irá funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Renamedcoin will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o Renamedcoin não irá funcionar correctamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2744,8 +2744,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com</tran
         <translation>Tentar recuperar chaves privadas de um wallet.dat corrupto</translation>
     </message>
     <message>
-        <source>Bitcoin Core Daemon</source>
-        <translation>Servidor Bitcoin Core</translation>
+        <source>Renamedcoin Core Daemon</source>
+        <translation>Servidor Renamedcoin Core</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2924,8 +2924,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com</tran
         <translation>Isto têm como fim a realização de testes de regressão para pools e desenvolvimento de aplicações.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use bitcoin-cli):</source>
-        <translation>Utilização (obsoleto, usar bitcoin-cli):</translation>
+        <source>Usage (deprecated, use renamedcoin-cli):</source>
+        <translation>Utilização (obsoleto, usar renamedcoin-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -2960,8 +2960,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com</tran
         <translation>Importar blocos de um ficheiro blk000??.dat externo</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Impossível trancar a pasta de dados %s. Provavelmente o Bitcoin Core já está a ser executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. Renamedcoin Core is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s. Provavelmente o Renamedcoin Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3008,8 +3008,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com</tran
         <translation>Apenas ligar a nós na rede &lt;net&gt; (IPv4, IPv6 ou Tor)</translation>
     </message>
     <message>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (ver a Bitcoin Wiki para instruções de configuração SSL)</translation>
+        <source>SSL options: (see the Renamedcoin Wiki for SSL setup instructions)</source>
+        <translation>Opções SSL: (ver a Renamedcoin Wiki para instruções de configuração SSL)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3140,12 +3140,12 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta Bitcoin" admin@foo.com</tran
         <translation>Erro ao carregar wallet.dat: Carteira danificada</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Renamedcoin</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do Renamedcoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>A Carteira precisou de ser reescrita: reinicie o Bitcoin para completar o processo</translation>
+        <source>Wallet needed to be rewritten: restart Renamedcoin to complete</source>
+        <translation>A Carteira precisou de ser reescrita: reinicie o Renamedcoin para completar o processo</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

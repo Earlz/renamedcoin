@@ -1,106 +1,106 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
+// Copyright (c) 2011-2013 The Renamedcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "bitcoinunits.h"
+#include "renamedcoinunits.h"
 
 #include <QStringList>
 
-BitcoinUnits::BitcoinUnits(QObject *parent):
+RenamedcoinUnits::RenamedcoinUnits(QObject *parent):
         QAbstractListModel(parent),
         unitlist(availableUnits())
 {
 }
 
-QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
+QList<RenamedcoinUnits::Unit> RenamedcoinUnits::availableUnits()
 {
-    QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(BTC);
-    unitlist.append(mBTC);
-    unitlist.append(uBTC);
+    QList<RenamedcoinUnits::Unit> unitlist;
+    unitlist.append(RNMC);
+    unitlist.append(mRNMC);
+    unitlist.append(uRNMC);
     return unitlist;
 }
 
-bool BitcoinUnits::valid(int unit)
+bool RenamedcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case BTC:
-    case mBTC:
-    case uBTC:
+    case RNMC:
+    case mRNMC:
+    case uRNMC:
         return true;
     default:
         return false;
     }
 }
 
-QString BitcoinUnits::name(int unit)
+QString RenamedcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BTC");
-    case mBTC: return QString("mBTC");
-    case uBTC: return QString::fromUtf8("μBTC");
+    case RNMC: return QString("RNMC");
+    case mRNMC: return QString("mRNMC");
+    case uRNMC: return QString::fromUtf8("μRNMC");
     default: return QString("???");
     }
 }
 
-QString BitcoinUnits::description(int unit)
+QString RenamedcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Bitcoins");
-    case mBTC: return QString("Milli-Bitcoins (1 / 1,000)");
-    case uBTC: return QString("Micro-Bitcoins (1 / 1,000,000)");
+    case RNMC: return QString("Renamedcoins");
+    case mRNMC: return QString("Milli-Renamedcoins (1 / 1,000)");
+    case uRNMC: return QString("Micro-Renamedcoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }
 
-qint64 BitcoinUnits::factor(int unit)
+qint64 RenamedcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case BTC:  return 100000000;
-    case mBTC: return 100000;
-    case uBTC: return 100;
+    case RNMC:  return 100000000;
+    case mRNMC: return 100000;
+    case uRNMC: return 100;
     default:   return 100000000;
     }
 }
 
-qint64 BitcoinUnits::maxAmount(int unit)
+qint64 RenamedcoinUnits::maxAmount(int unit)
 {
     switch(unit)
     {
-    case BTC:  return Q_INT64_C(21000000);
-    case mBTC: return Q_INT64_C(21000000000);
-    case uBTC: return Q_INT64_C(21000000000000);
+    case RNMC:  return Q_INT64_C(21000000);
+    case mRNMC: return Q_INT64_C(21000000000);
+    case uRNMC: return Q_INT64_C(21000000000000);
     default:   return 0;
     }
 }
 
-int BitcoinUnits::amountDigits(int unit)
+int RenamedcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8; // 21,000,000 (# digits, without commas)
-    case mBTC: return 11; // 21,000,000,000
-    case uBTC: return 14; // 21,000,000,000,000
+    case RNMC: return 8; // 21,000,000 (# digits, without commas)
+    case mRNMC: return 11; // 21,000,000,000
+    case uRNMC: return 14; // 21,000,000,000,000
     default: return 0;
     }
 }
 
-int BitcoinUnits::decimals(int unit)
+int RenamedcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case BTC: return 8;
-    case mBTC: return 5;
-    case uBTC: return 2;
+    case RNMC: return 8;
+    case mRNMC: return 5;
+    case uRNMC: return 2;
     default: return 0;
     }
 }
 
-QString BitcoinUnits::format(int unit, qint64 n, bool fPlus)
+QString RenamedcoinUnits::format(int unit, qint64 n, bool fPlus)
 {
     // Note: not using straight sprintf here because we do NOT want
     // localized number formatting.
@@ -127,12 +127,12 @@ QString BitcoinUnits::format(int unit, qint64 n, bool fPlus)
     return quotient_str + QString(".") + remainder_str;
 }
 
-QString BitcoinUnits::formatWithUnit(int unit, qint64 amount, bool plussign)
+QString RenamedcoinUnits::formatWithUnit(int unit, qint64 amount, bool plussign)
 {
     return format(unit, amount, plussign) + QString(" ") + name(unit);
 }
 
-bool BitcoinUnits::parse(int unit, const QString &value, qint64 *val_out)
+bool RenamedcoinUnits::parse(int unit, const QString &value, qint64 *val_out)
 {
     if(!valid(unit) || value.isEmpty())
         return false; // Refuse to parse invalid unit or empty string
@@ -169,13 +169,13 @@ bool BitcoinUnits::parse(int unit, const QString &value, qint64 *val_out)
     return ok;
 }
 
-int BitcoinUnits::rowCount(const QModelIndex &parent) const
+int RenamedcoinUnits::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent);
     return unitlist.size();
 }
 
-QVariant BitcoinUnits::data(const QModelIndex &index, int role) const
+QVariant RenamedcoinUnits::data(const QModelIndex &index, int role) const
 {
     int row = index.row();
     if(row >= 0 && row < unitlist.size())

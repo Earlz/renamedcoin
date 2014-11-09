@@ -72,12 +72,12 @@ MSYS shell:
 	mkdir miniupnpc
 	cp *.h miniupnpc/
 
-Bitcoin
+Renamedcoin
 -------
 MSYS shell:
 
-	cd \bitcoin
+	cd \renamedcoin
 	sh autogen.sh
 	sh configure
 	mingw32-make
-	strip bitcoind.exe
+	strip renamedcoind.exe

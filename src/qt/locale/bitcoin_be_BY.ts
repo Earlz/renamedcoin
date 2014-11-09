@@ -99,8 +99,8 @@
         <translation>Гаманец зашыфраваны</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
+        <source>Renamedcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your renamedcoins from being stolen by malware infecting your computer.</source>
+        <translation>Renamedcoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -128,7 +128,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Сінхранізацыя з сецівам...</translation>
@@ -158,7 +158,7 @@
         <translation>Выйсці з праграмы</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
+        <source>Show information about Renamedcoin</source>
         <translation>Паказаць звесткі пра Біткойн</translation>
     </message>
     <message>
@@ -206,12 +206,12 @@
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin кліент</translation>
+        <source>Renamedcoin client</source>
+        <translation>Renamedcoin кліент</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n актыўнае злучэнне з Bitcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Bitcoin-сецівам</numerusform></translation>
+        <source>%n active connection(s) to Renamedcoin network</source>
+        <translation><numerusform>%n актыўнае злучэнне з Renamedcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Renamedcoin-сецівам</numerusform></translation>
     </message>
     <message>
         <source>Error</source>
@@ -383,7 +383,7 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Увядзіце Біткойн-адрас (ўзор 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -526,7 +526,7 @@ Address: %4
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Увядзіце Біткойн-адрас (ўзор 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     </context>
@@ -794,7 +794,7 @@ Address: %4
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>Ужыванне:</translation>
@@ -812,12 +812,12 @@ Address: %4
         <translation>Опцыі:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Вызначыць канфігурацыйны файл (зыходна: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: renamedcoin.conf)</source>
+        <translation>Вызначыць канфігурацыйны файл (зыходна: renamedcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Вызначыць pid-файл (зыходна: bitcoind.pid)</translation>
+        <source>Specify pid file (default: renamedcoind.pid)</source>
+        <translation>Вызначыць pid-файл (зыходна: renamedcoind.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -908,12 +908,12 @@ Address: %4
         <translation>Памылка загрузкі wallet.dat: гаманец пашкоджаны</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Памылка загрузкі wallet.dat: гаманец патрабуе новую версію Bitcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Renamedcoin</source>
+        <translation>Памылка загрузкі wallet.dat: гаманец патрабуе новую версію Renamedcoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Гаманец мае быць перазапісаны: патрэбны перазапуск Bitcoin для выканання</translation>
+        <source>Wallet needed to be rewritten: restart Renamedcoin to complete</source>
+        <translation>Гаманец мае быць перазапісаны: патрэбны перазапуск Renamedcoin для выканання</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Bitcoin Core ҳақида</translation>
+        <source>About Renamedcoin Core</source>
+        <translation>Renamedcoin Core ҳақида</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; версияси</translation>
+        <source>&lt;b&gt;Renamedcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Renamedcoin Core&lt;/b&gt; версияси</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Муаллифлик ҳуқуқи</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Bitcoin Core дастурчилари</translation>
+        <source>The Renamedcoin Core developers</source>
+        <translation>Renamedcoin Core дастурчилари</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,12 +103,12 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Қабул қилинадиган манзиллар</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Улар тўловларни жўнатиш учун сизнинг Bitcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
+        <source>These are your Renamedcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Улар тўловларни жўнатиш учун сизнинг Renamedcoin манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Улар тўловларни қабул қилиш учун сизнинг Bitcoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
+        <source>These are your Renamedcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Улар тўловларни қабул қилиш учун сизнинг Renamedcoin манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -234,7 +234,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Тармоқ билан синхронланмоқда...</translation>
@@ -264,8 +264,8 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Иловадан чиқиш</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Bitcoin ҳақидаги маълумотларни кўрсатиш</translation>
+        <source>Show information about Renamedcoin</source>
+        <translation>Renamedcoin ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -308,12 +308,12 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin мижози</translation>
+        <source>Renamedcoin client</source>
+        <translation>Renamedcoin мижози</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n та Bitcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+        <source>%n active connection(s) to Renamedcoin network</source>
+        <translation><numerusform>%n та Renamedcoin тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>Processed %1 blocks of transaction history.</source>
@@ -647,8 +647,8 @@ MIT/X11 дастурий таъминот лицензияси остида та
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Bitcoin Core дастурчилари</translation>
+        <source>The Renamedcoin Core developers</source>
+        <translation>Renamedcoin Core дастурчилари</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -920,7 +920,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>Фойдаланиш:</translation>
@@ -938,12 +938,12 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Танламалар:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Мослаш файлини кўрсатинг (default: bitcoin.conf)</translation>
+        <source>Specify configuration file (default: renamedcoin.conf)</source>
+        <translation>Мослаш файлини кўрсатинг (default: renamedcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>pid файлини кўрсатинг (default: bitcoind.pid)</translation>
+        <source>Specify pid file (default: renamedcoind.pid)</source>
+        <translation>pid файлини кўрсатинг (default: renamedcoind.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>

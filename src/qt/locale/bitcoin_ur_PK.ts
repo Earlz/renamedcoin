@@ -56,7 +56,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
         <source>Error</source>
         <translation>نقص</translation>
@@ -290,7 +290,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     <message>
         <source>This help message</source>
         <translation>یہ مدد کا پیغام</translation>

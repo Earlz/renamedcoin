@@ -103,8 +103,8 @@
         <translation>Новчаник је шифрован</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje bitcoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
+        <source>Renamedcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your renamedcoins from being stolen by malware infecting your computer.</source>
+        <translation>Renamedcoin će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje renamedcoine da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -136,7 +136,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Синхронизација са мрежом у току...</translation>
@@ -166,8 +166,8 @@
         <translation>Напустите програм</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
-        <translation>Прегледајте информације о Bitcoin-у</translation>
+        <source>Show information about Renamedcoin</source>
+        <translation>Прегледајте информације о Renamedcoin-у</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -194,12 +194,12 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Пошаљите новац на bitcoin адресу</translation>
+        <source>Send coins to a Renamedcoin address</source>
+        <translation>Пошаљите новац на renamedcoin адресу</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin</source>
-        <translation>Изаберите могућности bitcoin-а</translation>
+        <source>Modify configuration options for Renamedcoin</source>
+        <translation>Изаберите могућности renamedcoin-а</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -234,8 +234,8 @@
         <translation>[testnet]</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n активна веза са Bitcoin мрежом</numerusform><numerusform>%n активне везе са Bitcoin мрежом</numerusform><numerusform>%n активних веза са Bitcoin мрежом</numerusform></translation>
+        <source>%n active connection(s) to Renamedcoin network</source>
+        <translation><numerusform>%n активна веза са Renamedcoin мрежом</numerusform><numerusform>%n активне везе са Renamedcoin мрежом</numerusform><numerusform>%n активних веза са Renamedcoin мрежом</numerusform></translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -391,8 +391,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Unesite Bitcoin adresu (n.pr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Unesite Renamedcoin adresu (n.pr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -510,8 +510,8 @@ Address: %4
         <translation>Alt+П</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Unesite Bitcoin adresu (n.pr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Unesite Renamedcoin adresu (n.pr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     </context>
 <context>
@@ -778,7 +778,7 @@ Address: %4
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>Korišćenje:</translation>
@@ -796,12 +796,12 @@ Address: %4
         <translation>Opcije</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Potvrdi željeni konfiguracioni fajl (podrazumevani:bitcoin.conf)</translation>
+        <source>Specify configuration file (default: renamedcoin.conf)</source>
+        <translation>Potvrdi željeni konfiguracioni fajl (podrazumevani:renamedcoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Konkretizuj pid fajl (podrazumevani: bitcoind.pid)</translation>
+        <source>Specify pid file (default: renamedcoind.pid)</source>
+        <translation>Konkretizuj pid fajl (podrazumevani: renamedcoind.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -877,8 +877,8 @@ Address: %4
         <translation>Грешка током учитавања wallet.dat: Новчаник је покварен      </translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Грешка током учитавања wallet.dat: Новчанику је неопходна нова верзија Bitcoin-a.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Renamedcoin</source>
+        <translation>Грешка током учитавања wallet.dat: Новчанику је неопходна нова верзија Renamedcoin-a.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

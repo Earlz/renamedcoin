@@ -1,23 +1,23 @@
-Bitcoin version 0.7.1 is now available from:
-  http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.7.1/
+Renamedcoin version 0.7.1 is now available from:
+  http://sourceforge.net/projects/renamedcoin/files/Renamedcoin/renamedcoin-0.7.1/
 
 This is a bug-fix minor release.
 
 Please report bugs using the issue tracker at github:
-  https://github.com/bitcoin/bitcoin/issues
+  https://github.com/renamedcoin/renamedcoin/issues
 
 Project source code is hosted at github; you can get
 source-only tarballs/zipballs directly from there:
-  https://github.com/bitcoin/bitcoin/tarball/v0.7.1  # .tar.gz
-  https://github.com/bitcoin/bitcoin/zipball/v0.7.1  # .zip
+  https://github.com/renamedcoin/renamedcoin/tarball/v0.7.1  # .tar.gz
+  https://github.com/renamedcoin/renamedcoin/zipball/v0.7.1  # .zip
 
 Ubuntu Linux users can use the "Personal Package Archive" (PPA)
 maintained by Matt Corallo to automatically keep 
 up-to-date.  Just type:
-  sudo apt-add-repository ppa:bitcoin/bitcoin
+  sudo apt-add-repository ppa:renamedcoin/renamedcoin
   sudo apt-get update
-in your terminal, then install the bitcoin-qt package:
-  sudo apt-get install bitcoin-qt
+in your terminal, then install the renamedcoin-qt package:
+  sudo apt-get install renamedcoin-qt
 
 KNOWN ISSUES
 ------------
@@ -30,7 +30,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait
 until it has completely shut down (which might take a few minutes for older
 versions), then run the installer (on Windows) or just copy over
-/Applications/Bitcoin-Qt (on Mac) or bitcoind/bitcoin-qt (on Linux).
+/Applications/Renamedcoin-Qt (on Mac) or renamedcoind/renamedcoin-qt (on Linux).
 
 If you were running on Linux with a version that might have been compiled
 with a different version of Berkeley DB (for example, if you were using an
@@ -75,7 +75,7 @@ Dependency changes
 Bug fixes
 ---------
 
-* Clicking on a bitcoin: URI on Windows should now launch Bitcoin-Qt properly.
+* Clicking on a renamedcoin: URI on Windows should now launch Renamedcoin-Qt properly.
 
 * When running -testnet, use RPC port 18332 by default.
 

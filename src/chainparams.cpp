@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2014 The Renamedcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -140,10 +140,10 @@ public:
         assert(hashGenesisBlock == uint256("0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"));
         assert(genesis.hashMerkleRoot == uint256("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
 
-        vSeeds.push_back(CDNSSeedData("bitcoin.sipa.be", "seed.bitcoin.sipa.be"));
+        vSeeds.push_back(CDNSSeedData("renamedcoin.sipa.be", "seed.renamedcoin.sipa.be"));
         vSeeds.push_back(CDNSSeedData("bluematt.me", "dnsseed.bluematt.me"));
-        vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.bitcoin.dashjr.org"));
-        vSeeds.push_back(CDNSSeedData("bitcoinstats.com", "seed.bitcoinstats.com"));
+        vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.renamedcoin.dashjr.org"));
+        vSeeds.push_back(CDNSSeedData("renamedcoinstats.com", "seed.renamedcoinstats.com"));
         vSeeds.push_back(CDNSSeedData("bitnodes.io", "seed.bitnodes.io"));
         vSeeds.push_back(CDNSSeedData("xf2.org", "bitseed.xf2.org"));
 
@@ -208,7 +208,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("bitcoin.petertodd.org", "testnet-seed.bitcoin.petertodd.org"));
+        vSeeds.push_back(CDNSSeedData("renamedcoin.petertodd.org", "testnet-seed.renamedcoin.petertodd.org"));
         vSeeds.push_back(CDNSSeedData("bluematt.me", "testnet-seed.bluematt.me"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(111);

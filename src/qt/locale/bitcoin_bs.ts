@@ -12,14 +12,14 @@
     <name>AskPassphraseDialog</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Jezrga</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Renamedcoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -37,15 +37,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Jezrga</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Renamedcoin Jezrga</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     </context>
 <context>
@@ -63,8 +63,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Renamedcoin</source>
+        <translation>Renamedcoin</translation>
     </message>
     </context>
 <context>
@@ -113,8 +113,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Jezrga</translation>
+        <source>Renamedcoin Core</source>
+        <translation>Renamedcoin Jezrga</translation>
     </message>
     </context>
 <context>
@@ -162,6 +162,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     </context>
 </TS>

@@ -12,7 +12,7 @@
     <name>AskPassphraseDialog</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     </context>
 <context>
     <name>ClientModel</name>
@@ -102,6 +102,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     </context>
 </TS>

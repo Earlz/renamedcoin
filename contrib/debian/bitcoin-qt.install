@@ -1,6 +1,6 @@
-usr/local/bin/bitcoin-qt usr/bin
-share/pixmaps/bitcoin32.xpm usr/share/pixmaps
-share/pixmaps/bitcoin16.xpm usr/share/pixmaps
-share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/bitcoin-qt.desktop usr/share/applications
-debian/bitcoin-qt.protocol usr/share/kde4/services/
+usr/local/bin/renamedcoin-qt usr/bin
+share/pixmaps/renamedcoin32.xpm usr/share/pixmaps
+share/pixmaps/renamedcoin16.xpm usr/share/pixmaps
+share/pixmaps/renamedcoin128.png usr/share/pixmaps
+debian/renamedcoin-qt.desktop usr/share/applications
+debian/renamedcoin-qt.protocol usr/share/kde4/services/

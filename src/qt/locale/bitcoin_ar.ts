@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Bitcoin Core</source>
+        <source>About Renamedcoin Core</source>
         <translation>عن جوهر البيت كوين</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Renamedcoin Core&lt;/b&gt; version</source>
         <translation>&lt;b&gt;جوهر البيت كوين&lt;/b&gt; إصدار</translation>
     </message>
     <message>
@@ -14,7 +14,7 @@
         <translation>الحقوق محفوظة</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Renamedcoin Core developers</source>
         <translation>مطوري جوهر البيت كوين</translation>
     </message>
     </context>
@@ -171,7 +171,7 @@
         <translation>محفظة مشفرة</translation>
     </message>
     <message>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Renamedcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your renamedcoins from being stolen by malware infecting your computer.</source>
         <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
     </message>
     <message>
@@ -200,7 +200,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>RenamedcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>التوقيع و الرسائل</translation>
@@ -238,7 +238,7 @@
         <translation>الخروج من التطبيق</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin</source>
+        <source>Show information about Renamedcoin</source>
         <translation>  إظهار معلومات حول بت كوين</translation>
     </message>
     <message>
@@ -270,7 +270,7 @@
         <translation>افتح &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Renamedcoin address</source>
         <translation>ارسل عملات الى عنوان بيتكوين</translation>
     </message>
     <message>
@@ -290,7 +290,7 @@
         <translation>&amp;التحقق من الرسالة...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>Renamedcoin</source>
         <translation>بت كوين</translation>
     </message>
     <message>
@@ -330,11 +330,11 @@
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Renamedcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
-        <source>Bitcoin client</source>
+        <source>Renamedcoin client</source>
         <translation>عميل بت كوين</translation>
     </message>
     <message numerus="yes">
@@ -585,7 +585,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Renamedcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
@@ -616,7 +616,7 @@
         <translation>استخدام دليل بيانات مخصص:</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>Renamedcoin</source>
         <translation>بت كوين</translation>
     </message>
     <message>
@@ -775,12 +775,12 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Bitcoin</source>
+        <source>Renamedcoin</source>
         <translation>بت كوين</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>إدخال عنوانBitcoin (مثال :1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>إدخال عنوانRenamedcoin (مثال :1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1170,7 +1170,7 @@
         <translation>التوقيع</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Renamedcoin address</source>
         <translation>وقع الرسالة لتثبت انك تمتلك عنوان البت كوين هذا</translation>
     </message>
     <message>
@@ -1190,8 +1190,8 @@
         <translation>تحقق &amp;الرسالة</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>إدخال عنوانBitcoin (مثال :1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Renamedcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>إدخال عنوانRenamedcoin (مثال :1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
@@ -1241,11 +1241,11 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Renamedcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
+        <source>The Renamedcoin Core developers</source>
         <translation>مطوري جوهر البيت كوين</translation>
     </message>
     <message>
@@ -1594,7 +1594,7 @@
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>renamedcoin-core</name>
     <message>
         <source>Usage:</source>
         <translation>المستخدم</translation>
@@ -1708,11 +1708,11 @@
         <translation>خطأ عند تنزيل wallet.dat: المحفظة تالفة</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Renamedcoin</source>
         <translation>خطأ عند تنزيل wallet.dat: المحفظة تتطلب نسخة أحدث من بتكوين</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Renamedcoin to complete</source>
         <translation>المحفظة تحتاج لإعادة إنشاء: أعد تشغيل بتكوين للإتمام</translation>
     </message>
     <message>
