@@ -40,7 +40,6 @@ test_renamedcoin_SOURCES = \
   bloom_tests.cpp \
   canonical_tests.cpp \
   checkblock_tests.cpp \
-  Checkpoints_tests.cpp \
   compress_tests.cpp \
   DoS_tests.cpp \
   getarg_tests.cpp \
