@@ -28,7 +28,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
         <translation>Drepturi de autor</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Dezvoltatorii Renamedcoin Core</translation>
     </message>
     </context>
@@ -1971,7 +1971,7 @@ Adresa: %4
         <translation>Renamedcoin Core</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Dezvoltatorii Renamedcoin Core</translation>
     </message>
     <message>

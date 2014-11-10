@@ -28,7 +28,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Все права защищены</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Разработчики Renamedcoin Core</translation>
     </message>
     <message>
@@ -2131,7 +2131,7 @@ Address: %4
         <translation>Renamedcoin Core</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Разработчики Renamedcoin Core</translation>
     </message>
     <message>

@@ -29,7 +29,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Renamedcoin Core-utvecklarna</translation>
     </message>
     <message>
@@ -2128,7 +2128,7 @@ Adress: %4
         <translation>Renamedcoin Kärna</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Renamedcoin Core-utvecklarna</translation>
     </message>
     <message>

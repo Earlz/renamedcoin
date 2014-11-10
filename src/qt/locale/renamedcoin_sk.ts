@@ -28,7 +28,7 @@ Tento výrobok obsahuje sofvér, ktorý vyvynul OpenSSL Project pre použitie v 
         <translation>Autorské práva</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Vývojári jadra Renamedcoin</translation>
     </message>
     <message>
@@ -2126,7 +2126,7 @@ Adresa: %4</translation>
         <translation>Jadro Renamedcoin</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Vývojári jadra Renamedcoin</translation>
     </message>
     <message>

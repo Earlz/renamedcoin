@@ -28,7 +28,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Vývojáři Renamedcoin Core</translation>
     </message>
     <message>
@@ -2115,7 +2115,7 @@ Adresa: %4
         <translation>Renamedcoin Core</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Vývojáři Renamedcoin Core</translation>
     </message>
     <message>

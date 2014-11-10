@@ -31,7 +31,7 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Los desarrolladores del Núcleo de Renamedcoin</translation>
     </message>
     </context>
@@ -1974,7 +1974,7 @@ Dirección: %4
         <translation>Núcleo de Renamedcoin</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Los desarrolladores del Núcleo de Renamedcoin</translation>
     </message>
     <message>

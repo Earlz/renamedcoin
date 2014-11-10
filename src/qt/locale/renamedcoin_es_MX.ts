@@ -14,7 +14,7 @@
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Los desarrolladores de Renamedcoin Core</translation>
     </message>
     <message>
@@ -877,7 +877,7 @@
         <translation>nucleo Renamedcoin</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>El nucleo de Renamedcoin de desarrolladores</translation>
     </message>
     </context>

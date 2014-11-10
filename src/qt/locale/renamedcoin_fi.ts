@@ -29,7 +29,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Tekijänoikeus</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Renamedcoin Core kehittäjät</translation>
     </message>
     <message>
@@ -2131,7 +2131,7 @@ Osoite: %4</translation>
         <translation>Renamedcoin-ydin</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Renamedcoin Core kehittäjät</translation>
     </message>
     <message>

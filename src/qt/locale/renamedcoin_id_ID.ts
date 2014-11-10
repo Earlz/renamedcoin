@@ -28,7 +28,7 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Pembangun Renamedcoin Core</translation>
     </message>
     </context>
@@ -2015,7 +2015,7 @@ Alamat: %4
         <translation>Renamedcoin Core</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Pembangun Renamedcoin Core</translation>
     </message>
     <message>

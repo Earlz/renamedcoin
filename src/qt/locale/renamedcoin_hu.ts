@@ -27,7 +27,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>A Renamedcoin Core fejlesztői</translation>
     </message>
     <message>
@@ -1684,7 +1684,7 @@ Cím: %4
         <translation>Renamedcoin Core</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>A Renamedcoin Core fejlesztői</translation>
     </message>
     <message>

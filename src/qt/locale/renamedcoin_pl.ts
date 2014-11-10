@@ -28,7 +28,7 @@ Ten produkt zawiera oprogramowanie opracowane przez Projekt OpenSSL do użycia w
         <translation>Prawo autorskie</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Deweloperzy Renamedcoin Core</translation>
     </message>
     <message>
@@ -2015,7 +2015,7 @@ Adres: %4
         <translation>Rdzeń BitCoin</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Deweloperzy Renamedcoin Core</translation>
     </message>
     <message>

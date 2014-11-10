@@ -24,7 +24,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>ビットコインコアの開発者</translation>
     </message>
     </context>
@@ -1708,7 +1708,7 @@ Address: %4
         <translation>Renamedcoin のコア</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>ビットコインコアの開発者</translation>
     </message>
     <message>

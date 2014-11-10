@@ -28,7 +28,7 @@ Tiu ĉi produkto enhavas erojn kreitajn de la "OpenSSL Project" por uzo en la "O
         <translation>Kopirajto</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>La programistoj de Bitmona Kerno</translation>
     </message>
     </context>
@@ -1923,7 +1923,7 @@ Adreso: %4
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>La programistoj de Bitmona Kerno</translation>
     </message>
     <message>

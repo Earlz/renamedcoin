@@ -28,7 +28,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
         <translation>Муаллифлик ҳуқуқи</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Renamedcoin Core дастурчилари</translation>
     </message>
     <message>
@@ -647,7 +647,7 @@ MIT/X11 дастурий таъминот лицензияси остида та
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Renamedcoin Core дастурчилари</translation>
     </message>
     <message>

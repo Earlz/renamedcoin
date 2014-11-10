@@ -28,7 +28,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <translation>Auteursrecht</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>De Renamedcoin Core ontwikkelaars</translation>
     </message>
     <message>
@@ -2131,7 +2131,7 @@ Adres: %4
         <translation>Renamedcoin Kern</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>De Renamedcoin Core ontwikkelaars</translation>
     </message>
     <message>

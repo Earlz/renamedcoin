@@ -28,7 +28,7 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l'uso del T
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Gli sviluppatori del Renamedcoin Core</translation>
     </message>
     <message>
@@ -2129,7 +2129,7 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Renamedcoin Core</translation>
     </message>
     <message>
-        <source>The Renamedcoin Core developers</source>
+        <source>The Bitcoin Core developers</source>
         <translation>Gli sviluppatori del Renamedcoin Core</translation>
     </message>
     <message>
