@@ -35,7 +35,6 @@ test_renamedcoin_SOURCES = \
   alert_tests.cpp \
   allocator_tests.cpp \
   base32_tests.cpp \
-  base58_tests.cpp \
   base64_tests.cpp \
   bignum_tests.cpp \
   bloom_tests.cpp \
@@ -45,7 +44,6 @@ test_renamedcoin_SOURCES = \
   compress_tests.cpp \
   DoS_tests.cpp \
   getarg_tests.cpp \
-  key_tests.cpp \
   main_tests.cpp \
   miner_tests.cpp \
   mruset_tests.cpp \
