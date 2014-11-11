@@ -2419,13 +2419,13 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CDiskBlockPos* dbp)
             return state.DoS(100, error("AcceptBlock() : forked chain older than last checkpoint (height %d)", nHeight));
 
         // Reject block.nVersion=1 blocks when 95% (75% on testnet) of the network has upgraded:
-        if (block.nVersion < 2 && block.nHeight!=0)
+        if (block.nVersion < 2)
         {
             return state.Invalid(error("AcceptBlock() : rejected nVersion=1 block"),
                                  REJECT_OBSOLETE, "bad-version");
         }
         // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
-        if (block.nVersion >= 2 && block.nHeight!=0)
+        if (block.nVersion >= 2)
         {
             CScript expect = CScript() << nHeight;
             if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
