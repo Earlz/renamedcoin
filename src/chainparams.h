@@ -13,6 +13,10 @@
 
 using namespace std;
 
+static const uint256 MAINNET_GENESIS("0x");
+static const uint256 TESTNET_GENESIS("0x");
+static const uint256 REGNET_GENESIS("0x");
+
 #define MESSAGE_START_SIZE 4
 typedef unsigned char MessageStartChars[MESSAGE_START_SIZE];
 

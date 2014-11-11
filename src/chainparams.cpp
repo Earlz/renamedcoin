@@ -62,7 +62,7 @@ public:
         genesis.nNonce   = 2083236893;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"));
+        assert(hashGenesisBlock == MAINNET_GENESIS);
         assert(genesis.hashMerkleRoot == uint256("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
 
         vSeeds.push_back(CDNSSeedData("earlz.net", "earlz.net"));
@@ -124,7 +124,7 @@ public:
         genesis.nTime = 1296688602;
         genesis.nNonce = 414098458;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943"));
+        assert(hashGenesisBlock == TESTNET_GENESIS);
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -159,7 +159,7 @@ public:
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
-        assert(hashGenesisBlock == uint256("0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"));
+        assert(hashGenesisBlock == REGNET_GENESIS);
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
