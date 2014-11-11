@@ -1597,8 +1597,8 @@ Aadress: %4⏎</translation>
         <translation>Täpsusta andmekataloog</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Kuula ühendusi pordil &lt;port&gt; (vaikeväärtus: 8333 või testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5433 or testnet: 15433)</source>
+        <translation>Kuula ühendusi pordil &lt;port&gt; (vaikeväärtus: 5433 või testnet: 15433)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -1625,8 +1625,8 @@ Aadress: %4⏎</translation>
         <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv4'l: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 8332 või testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5432 or testnet: 15432)</source>
+        <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 5432 või testnet: 15432)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

@@ -2494,8 +2494,8 @@ Alamat: %4
         <translation>Tentukan direktori data</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Menerima hubungan pada &lt;port&gt; (standar: 8333 atau testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5433 or testnet: 15433)</source>
+        <translation>Menerima hubungan pada &lt;port&gt; (standar: 5433 atau testnet: 15433)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>

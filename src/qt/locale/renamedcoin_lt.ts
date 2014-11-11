@@ -1500,8 +1500,8 @@ Adresas: %4</translation>
         <translation>Nustatyti duomenų aplanką</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 8333 arba testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5433 or testnet: 15433)</source>
+        <translation>Sujungimo klausymas prijungčiai  &lt;port&gt; (pagal nutylėjimą: 5433 arba testnet: 15433)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -1520,8 +1520,8 @@ Adresas: %4</translation>
         <translation>Sekundžių kiekis eikiamas palaikyti ryšį dėl lygiarangių nestabilumo (pagal nutylėjimą: 86.400)</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5432 or testnet: 15432)</source>
+        <translation>Klausymas JSON-RPC sujungimui prijungčiai &lt;port&gt; (pagal nutylėjimą: 5432 or testnet: 15432)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

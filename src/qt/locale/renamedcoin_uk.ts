@@ -1934,8 +1934,8 @@ Address: %4
         <translation>Вкажіть робочий каталог</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Чекати на з'єднання на &lt;port&gt; (типово: 8333 або тестова мережа: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5433 or testnet: 15433)</source>
+        <translation>Чекати на з'єднання на &lt;port&gt; (типово: 5433 або тестова мережа: 15433)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -1958,8 +1958,8 @@ Address: %4
         <translation>Максимальній розмір вхідного буферу на одне з'єднання (типово: 86400)</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Прослуховувати &lt;port&gt; для JSON-RPC-з'єднань (типово: 8332 або тестова мережа: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5432 or testnet: 15432)</source>
+        <translation>Прослуховувати &lt;port&gt; для JSON-RPC-з'єднань (типово: 5432 або тестова мережа: 15432)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

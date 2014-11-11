@@ -2593,8 +2593,8 @@ Endereço: %4</translation>
         <translation>Especificar pasta de dados</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Escute ligações na porta &lt;n&gt; (por defeito: 8333 ou testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5433 or testnet: 15433)</source>
+        <translation>Escute ligações na porta &lt;n&gt; (por defeito: 5433 ou testnet: 15433)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2621,8 +2621,8 @@ Endereço: %4</translation>
         <translation>Ocorreu um erro ao definir a porta %u do serviço RPC a escutar em IPv4: %s</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Escutar por ligações JSON-RPC na porta &lt;n&gt; (por defeito: 8332 ou rede de testes: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5432 or testnet: 15432)</source>
+        <translation>Escutar por ligações JSON-RPC na porta &lt;n&gt; (por defeito: 5432 ou rede de testes: 15432)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -2764,8 +2764,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta Renamedcoin" admin@foo.com</
         <translation>Ligar através de proxy SOCKS:</translation>
     </message>
     <message>
-        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Ligar ao JSON-RPC na porta &lt;n&gt; (por defeito: 8332 ou rede de testes: 18332)</translation>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 5432 or testnet: 15432)</source>
+        <translation>Ligar ao JSON-RPC na porta &lt;n&gt; (por defeito: 5432 ou rede de testes: 15432)</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

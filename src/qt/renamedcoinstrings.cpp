@@ -75,7 +75,7 @@ QT_TRANSLATE_NOOP("renamedcoin-core", ""
 "In this mode -genproclimit controls how many blocks are generated "
 "immediately."),
 QT_TRANSLATE_NOOP("renamedcoin-core", ""
-"Listen for JSON-RPC connections on <port> (default: 8332 or testnet: 18332)"),
+"Listen for JSON-RPC connections on <port> (default: 5432 or testnet: 15432)"),
 QT_TRANSLATE_NOOP("renamedcoin-core", ""
 "Number of seconds to keep misbehaving peers from reconnecting (default: "
 "86400)"),
@@ -141,7 +141,7 @@ QT_TRANSLATE_NOOP("renamedcoin-core", "Cannot write default address"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Clear list of wallet transactions (diagnostic tool; implies -rescan)"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Connect only to the specified node(s)"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Connect through SOCKS proxy"),
-QT_TRANSLATE_NOOP("renamedcoin-core", "Connect to JSON-RPC on <port> (default: 8332 or testnet: 18332)"),
+QT_TRANSLATE_NOOP("renamedcoin-core", "Connect to JSON-RPC on <port> (default: 5432 or testnet: 15432)"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Connect to a node to retrieve peer addresses, and disconnect"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Connection options:"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Corrupted block database detected"),
@@ -194,7 +194,7 @@ QT_TRANSLATE_NOOP("renamedcoin-core", "Invalid amount for -paytxfee=<amount>: '%
 QT_TRANSLATE_NOOP("renamedcoin-core", "Invalid amount"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Limit size of signature cache to <n> entries (default: 50000)"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "List commands"),
-QT_TRANSLATE_NOOP("renamedcoin-core", "Listen for connections on <port> (default: 8333 or testnet: 18333)"),
+QT_TRANSLATE_NOOP("renamedcoin-core", "Listen for connections on <port> (default: 5433 or testnet: 15433)"),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Loading addresses..."),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Loading block index..."),
 QT_TRANSLATE_NOOP("renamedcoin-core", "Loading wallet..."),

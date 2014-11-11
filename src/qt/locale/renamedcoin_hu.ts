@@ -2117,8 +2117,8 @@ Cím: %4
 </translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8333 or testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5433 or testnet: 15433)</source>
+        <translation>Csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 5433 or testnet: 15433)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2141,8 +2141,8 @@ Cím: %4
         <translation>Helytelenül viselkedő peerek kizárási ideje másodpercben (alapértelmezés: 86400)</translation>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 8332 or testnet: 18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5432 or testnet: 15432)</source>
+        <translation>JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 5432 or testnet: 15432)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

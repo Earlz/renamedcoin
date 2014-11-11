@@ -824,8 +824,8 @@ Address: %4
         <translation>Вызначыць каталог даных</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Слухаць злучэнні на &lt;port&gt; (зыходна: 8333 ці testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5433 or testnet: 15433)</source>
+        <translation>Слухаць злучэнні на &lt;port&gt; (зыходна: 5433 ці testnet: 15433)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
