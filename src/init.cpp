@@ -565,11 +565,8 @@ bool AppInit2(boost::thread_group& threadGroup)
         if (nNewTimeout > 0 && nNewTimeout < 600000)
             nConnectTimeout = nNewTimeout;
     }
-
-    // Continue to put "/P2SH/" in the coinbase to monitor
-    // BIP16 support.
-    // This can be removed eventually...
-    const char* pszP2SH = "/P2SH/";
+    //put /v1/ in coinbase to monitor miner support when a new wallet is released
+    const char* pszP2SH = "/v1/";
     COINBASE_FLAGS << std::vector<unsigned char>(pszP2SH, pszP2SH+strlen(pszP2SH));
 
     // Fee-per-kilobyte amount considered the same as "free"
