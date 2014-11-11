@@ -9,6 +9,7 @@
 #include "core.h"
 #include "protocol.h"
 #include "util.h"
+#include "main.h"
 
 #include <boost/assign/list_of.hpp>
 
@@ -96,7 +97,6 @@ public:
         return vFixedSeeds;
     }
 protected:
-    CBlock genesis;
     vector<CAddress> vFixedSeeds;
 };
 static CMainParams mainParams;
@@ -207,5 +207,51 @@ bool SelectParamsFromCommandLine() {
     } else {
         SelectParams(CChainParams::MAIN);
     }
+    return true;
+}
+
+void  CChainParams::MineNewGenesisBlock()
+{
+    //This will output (to stdout) the code for a new genesis block when it is found
+    genesis.nTime=time(NULL);
+    genesis.nNonce=0;
+    printf("Searching for genesis block...\n");
+    uint256 thash;
+    while(1)
+    {
+        thash=genesis.GetHash();
+        if (CheckProofOfWork(thash, genesis.nBits))
+            break;
+        if ((genesis.nNonce & 0xFFFF) == 0)
+        {
+            printf("nonce %08X: hash = %s\n",genesis.nNonce, thash.ToString().c_str());
+        }
+        ++genesis.nNonce;
+        if (genesis.nNonce == 0)
+        {
+            printf("NONCE WRAPPED, incrementing time\n");
+            ++genesis.nTime;
+        }
+    }
+    printf("genesis.nTime = %u;\n",genesis.nTime);
+    printf("genesis.nNonce = %u;\n",genesis.nNonce);
+    printf("assert(genesis.hashMerkleRoot == uint256(\"0x%s\"));\n",genesis.hashMerkleRoot.ToString().c_str());
+    printf("assert(genesis.GetHash() == uint256(\"0x%s\"));\n",genesis.GetHash().ToString().c_str());
+    exit(1);
+}
+
+bool CheckProofOfWork(uint256 hash, unsigned int nBits)
+{
+    CBigNum bnTarget;
+    bnTarget.SetCompact(nBits);
+
+    // Check range
+    if (bnTarget <= 0 || bnTarget > Params().ProofOfWorkLimit())
+        return error("CheckProofOfWork() : nBits below minimum work");
+
+    // Check proof of work matches claimed amount
+    if (hash > bnTarget.getuint256())
+        return error("CheckProofOfWork() : hash doesn't match nBits");
+
     return true;
 }

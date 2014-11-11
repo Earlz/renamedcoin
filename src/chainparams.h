@@ -8,6 +8,7 @@
 
 #include "bignum.h"
 #include "uint256.h"
+#include "core.h" 
 
 #include <vector>
 
@@ -72,6 +73,8 @@ public:
     int RPCPort() const { return nRPCPort; }
 protected:
     CChainParams() {}
+    CBlock genesis;
+    void MineNewGenesisBlock();
 
     uint256 hashGenesisBlock;
     MessageStartChars pchMessageStart;
