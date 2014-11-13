@@ -14,9 +14,9 @@
 
 using namespace std;
 
-static const uint256 MAINNET_GENESIS("0x");
-static const uint256 TESTNET_GENESIS("0x");
-static const uint256 REGNET_GENESIS("0x");
+static const uint256 MAINNET_GENESIS("0x000001a56481f5791a0a57b5e67a37e39192ef5efa5ce0ff7831694884451ba4");
+static const uint256 TESTNET_GENESIS("0x000000bc4ff2b2d808bb13eb192039f9db87721131b2e27fefc3f7f6a3ce5e84)");
+static const uint256 REGNET_GENESIS("0x2876e6a5f812bff0ab0c92a0a43fc245fd1ca205b174a44387ba7622dd42f5f4");
 
 #define MESSAGE_START_SIZE 4
 typedef unsigned char MessageStartChars[MESSAGE_START_SIZE];
@@ -75,6 +75,7 @@ protected:
     CChainParams() {}
     CBlock genesis;
     void MineNewGenesisBlock();
+    bool CheckProofOfWork(uint256 hash, unsigned int nBits);
 
     uint256 hashGenesisBlock;
     MessageStartChars pchMessageStart;

@@ -36,7 +36,7 @@ public:
         vAlertPubKey = ParseHex("04fc9702847840aaf195de8442ebecedf5b095cdbb9bc716bda9110971b28a49e0ead8564ff0db22209e0374782c093bb899692d524e9d6a6956e7c5ecbcd68284");
         nDefaultPort = 5433;
         nRPCPort = 5432;
-        bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
+        bnProofOfWorkLimit = CBigNum(~uint256(0) >> 22);
         nSubsidyHalvingInterval = 210000;
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -47,18 +47,21 @@ public:
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 50 * COIN;
+        txNew.vout[0].nValue = 1 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("0") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nVersion = 1;
-        MineNewGenesisBlock();
+        //MineNewGenesisBlock();
+
+        genesis.nTime = 1415842216;
+        genesis.nNonce = 3751024;
+        assert(genesis.hashMerkleRoot == uint256("0x342a973bf5b381ff201f69b1c8ca4143639090c5079feec9978c3183bcbf75b0"));
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == MAINNET_GENESIS);
-        assert(genesis.hashMerkleRoot == uint256("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
 
         vSeeds.push_back(CDNSSeedData("earlz.net", "earlz.net"));
 
@@ -112,11 +115,14 @@ public:
         vAlertPubKey = ParseHex("04302390343f91cc401d56d68b123028bf52e5fca1939df127f63c6467cdf9c8e2c14b61104cf817d0b780da337893ecc4aaff1309e536162dabbdb45200ca2b0a");
         nDefaultPort = 15433;
         nRPCPort = 15432;
-        strDataDir = "testnet3";
+        strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1296688602;
-        genesis.nNonce = 414098458;
+        genesis.nTime = 1415842581;
+        genesis.nNonce = 2855958;
+        assert(genesis.hashMerkleRoot == uint256("0x342a973bf5b381ff201f69b1c8ca4143639090c5079feec9978c3183bcbf75b0"));
+        //genesis hash: 0x000000bc4ff2b2d808bb13eb192039f9db87721131b2e27fefc3f7f6a3ce5e84
+
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == TESTNET_GENESIS);
 
@@ -147,9 +153,14 @@ public:
         pchMessageStart[3] = 0xda;
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime = 1296688602;
-        genesis.nBits = 0x207fffff;
-        genesis.nNonce = 2;
+        genesis.nBits = bnProofOfWorkLimit.GetCompact();
+        
+        genesis.nTime = 1415842761;
+        genesis.nNonce = 3;
+        assert(genesis.hashMerkleRoot == uint256("0x342a973bf5b381ff201f69b1c8ca4143639090c5079feec9978c3183bcbf75b0"));
+        //genesis hash: 0x2876e6a5f812bff0ab0c92a0a43fc245fd1ca205b174a44387ba7622dd42f5f4
+
+
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
@@ -209,12 +220,11 @@ void  CChainParams::MineNewGenesisBlock()
     //This will output (to stdout) the code for a new genesis block when it is found
     genesis.nTime=time(NULL);
     genesis.nNonce=0;
-    printf("Searching for genesis block...\n");
     uint256 thash;
     while(1)
     {
         thash=genesis.GetHash();
-        if (CheckProofOfWork(thash, genesis.nBits))
+        if (this->CheckProofOfWork(thash, genesis.nBits))
             break;
         if ((genesis.nNonce & 0xFFFF) == 0)
         {
@@ -230,22 +240,22 @@ void  CChainParams::MineNewGenesisBlock()
     printf("genesis.nTime = %u;\n",genesis.nTime);
     printf("genesis.nNonce = %u;\n",genesis.nNonce);
     printf("assert(genesis.hashMerkleRoot == uint256(\"0x%s\"));\n",genesis.hashMerkleRoot.ToString().c_str());
-    printf("assert(genesis.GetHash() == uint256(\"0x%s\"));\n",genesis.GetHash().ToString().c_str());
+    printf("//genesis hash: 0x%s\n", genesis.GetHash().ToString().c_str());
     exit(1);
 }
 
-bool CheckProofOfWork(uint256 hash, unsigned int nBits)
+//need a different implementation here that doesn't use error() and that doesn't use Params() since it isn't yet usable
+bool CChainParams::CheckProofOfWork(uint256 hash, unsigned int nBits)
 {
     CBigNum bnTarget;
     bnTarget.SetCompact(nBits);
 
     // Check range
-    if (bnTarget <= 0 || bnTarget > Params().ProofOfWorkLimit())
-        return error("CheckProofOfWork() : nBits below minimum work");
-
+    if (bnTarget <= 0 || bnTarget > this->ProofOfWorkLimit())
+        return false; //error("CheckProofOfWork() : nBits below minimum work");
     // Check proof of work matches claimed amount
     if (hash > bnTarget.getuint256())
-        return error("CheckProofOfWork() : hash doesn't match nBits");
+        return false; //error("CheckProofOfWork() : hash doesn't match nBits");
 
     return true;
 }
